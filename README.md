@@ -32,4 +32,15 @@ The Wallet Seed Phrase Checker reads a `seeds.txt` file containing wallet seed p
    ```bash
    git clone https://github.com/FITIMDOTORG/Wallet-Seed-Phrase-Checker.git
 
+## Usage
+Add your Ethereum node connection URL (e.g., Infura) in checker.py.
+Populate seeds.txt with seed phrases to check.
+## Run the script:
+- python checker.py
+Check results.txt for wallets with balances.
+   
+## Important Notes
+Ensure you have permission to check the wallets listed in seeds.txt.
+Misuse of this tool can lead to legal consequences.
+Consider implementing rate-limiting or additional error handling for large datasets.
    
