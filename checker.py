@@ -3,7 +3,7 @@ from web3 import Web3
 from eth_account import Account
 
 # Configure your Ethereum node URL
-INFURA_URL = "https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"
+INFURA_URL = "https://mainnet.infura.io/v3/34d318c229e849488890fac329d58122"
 
 # Initialize Web3
 web3 = Web3(Web3.HTTPProvider(INFURA_URL))
